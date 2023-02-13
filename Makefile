@@ -4,6 +4,9 @@ cat:
 
 conda:
 	echo do a conda deactivate before running this
+	cp samples/olena.yml conda_env.yml
+	conda install -y mamba
+	mamba env create -f conda_env.yml
 
 
 

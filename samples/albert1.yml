@@ -1,0 +1,34 @@
+name: albert1
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+
+# olenas
+  - seaborn
+  - scikit-image
+  - fiona
+#holoviz
+  - hvplot
+  - geoviews
+  - datashader
+  - fastparquet
+  - python-snappy
+#jupyter
+  - jupyterlab 
+  - jupyter-server-proxy
+  - widgetsnbextension
+  - dask-labextension
+  - nodejs
+  - h5netcdf
+#other 
+  - fsspec
+  - s3fs
+  - erddapy
+  - xmltodict
+  - folium
+#aws
+  - boto3
+
+# ml
+  - tensorflow

@@ -1,0 +1,22 @@
+Libraries to include in conda environment:
+
+numpy
+pandas
+matplotlib.pyplot
+seaborn
+plotly
+statesmodels.api
+sklearn
+vaex (would I be able to convert excel files and growing
+body of basin file data into HDF5 files?)
+hdfs
+shap
+tensorflow
+Pyarrow
+Spark
+pingouin
+modin
+DuckDB
+Pandarallel
+summarytools
+sidetable
